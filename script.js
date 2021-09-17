@@ -1,69 +1,10 @@
 setInterval(function () {
   let currentDate = new Date();
   console.log(currentDate);
-  let day;
-  switch (currentDate.getDay()) {
-    case 0:
-      day = "Sunday";
-      break;
-    case 1:
-      day = "Monday";
-      break;
-    case 2:
-      day = "Tusday";
-      break;
-    case 3:
-      day = "Wednesday";
-      break;
-    case 4:
-      day = "Thursday";
-      break;
-    case 5:
-      day = "Friday";
-      break;
-    case 6:
-      day = "Saturday";
-      break;
-  }
-  let month;
-  switch (currentDate.getMonth()) {
-    case 0:
-      month = "January";
-      break;
-    case 1:
-      month = "February";
-      break;
-    case 2:
-      month = "March";
-      break;
-    case 3:
-      month = "April";
-      break;
-    case 4:
-      month = "May";
-      break;
-    case 5:
-      month = "June";
-      break;
-    case 6:
-      month = "July";
-      break;
-    case 7:
-      month = "August";
-      break;
-    case 8:
-      month = "September";
-      break;
-    case 9:
-      month = "October";
-      break;
-    case 10:
-      month = "November";
-      break;
-    case 11:
-      month = "December";
-      break;
-  }
+
+  let day = getSpelledDay(currentDate.getDay());
+  let month = getSpelledMonth(currentDate.getMonth());
+
   let dte = currentDate.getDate();
   let yr = currentDate.getFullYear();
   let hour = currentDate.getHours();
@@ -90,3 +31,70 @@ setInterval(function () {
     "date"
   ).innerText = `${month.toUpperCase()} ${dte},${yr}`;
 }, 1000);
+
+function getSpelledDay(day) {
+  switch (day) {
+    case 0:
+      return  "Sunday";
+      break;
+    case 1:
+      return  "Monday";
+      break;
+    case 2:
+      return  "Tusday";
+      break;
+    case 3:
+      return  "Wednesday";
+      break;
+    case 4:
+      return  "Thursday";
+      break;
+    case 5:
+      return  "Friday";
+      break;
+    case 6:
+      return  "Saturday";
+      break;
+  }
+}
+
+function getSpelledMonth(month) {
+  switch (month) {
+    case 0:
+      return "January";
+      break;
+    case 1:
+      return "February";
+      break;
+    case 2:
+      return "March";
+      break;
+    case 3:
+      return "April";
+      break;
+    case 4:
+      return "May";
+      break;
+    case 5:
+      return "June";
+      break;
+    case 6:
+      return "July";
+      break;
+    case 7:
+      return "August";
+      break;
+    case 8:
+      return "September";
+      break;
+    case 9:
+      return "October";
+      break;
+    case 10:
+      return "November";
+      break;
+    case 11:
+      return "December";
+      break;
+  }
+}
