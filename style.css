@@ -1,0 +1,33 @@
+html {
+    height: 99%;
+}
+
+body {
+    height: inherit;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#day {
+    height: 24%;
+    color: white;
+    background-color: red;
+}
+
+#time {
+    height: 55%;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+#date {
+    height: 21%;
+    color: white;
+    background-color: blue;
+}
