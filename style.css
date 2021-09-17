@@ -13,21 +13,40 @@ body {
     height: 100%;
 }
 
-#day {
+#day-container {
     height: 24%;
     color: white;
     background-color: red;
+    text-align: center;
 }
 
-#time {
+#day {
+    font-size: 12rem;;
+}
+
+#morning-afternoon {
+    font-size: 5rem;
+}
+
+#time-container {
     height: 55%;
     width: 100%;
     color: black;
     background-color: white;
+    text-align: center;
 }
 
+#time {
+    font-size: 22rem;
+}
+
+#am-pm {
+    font-size: 5rem;
+}
 #date {
     height: 21%;
     color: white;
     background-color: blue;
+    text-align: center;
+    font-size: 9rem;
 }
