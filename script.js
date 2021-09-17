@@ -25,7 +25,7 @@ setInterval(function () {
       day = "Saturday";
       break;
   }
-  let months;
+  let month;
   switch (currentDate.getMonth()) {
     case 0:
       month = "January";
