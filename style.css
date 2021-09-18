@@ -21,11 +21,21 @@ body {
 }
 
 #day {
-    font-size: 12rem;;
+    font-size: 12rem;
+}
+@media only screen and (max-height: 800px) {
+    #day {
+        font-size: 8rem;
+    }
 }
 
 #morning-afternoon {
     font-size: 6rem;
+}
+@media only screen and (max-height: 800px) {
+    #morning-afternoon {
+        font-size: 4rem;
+    }
 }
 
 #time-container {
@@ -39,14 +49,31 @@ body {
 #time {
     font-size: 22rem;
 }
+@media only screen and (max-height: 1000px) {
+    #time {
+        font-size: 15rem;
+    }
+}
 
 #am-pm {
     font-size: 5rem;
 }
-#date {
+@media only screen and (max-height: 1000px) {
+    #am-pm {
+        font-size: 4rem;
+    }
+}
+#date-container {
     height: 21%;
     color: white;
     background-color: blue;
     text-align: center;
+}
+#date {
     font-size: 9rem;
+}
+@media only screen and (max-height: 1000px) {
+    #date {
+        font-size: 6rem;
+    }
 }
