@@ -1,5 +1,5 @@
 html {
-    height: 99%;
+    height: 99vh;
 }
 
 body {
@@ -21,62 +21,51 @@ body {
 }
 
 #day {
-    font-size: 12rem;
+    font-size: 10vw;
+    display: inline-block;
+    margin-top: 1vh;
+}
+@media only screen and (max-height: 900px) {
+    #day {
+        font-size: 9vw;
+    }
 }
 @media only screen and (max-height: 800px) {
     #day {
-        font-size: 8rem;
+        font-size: 8vw;
     }
 }
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-height: 730px) {
     #day {
-        font-size: 6rem;
+        font-size: 7vw;
     }
 }
-@media only screen and (max-width: 930px) {
+@media only screen and (max-height: 615px) {
     #day {
-        font-size: 5rem;
+        font-size: 6vw;
     }
 }
-@media only screen and (max-width: 755px) {
+@media only screen and (max-height: 530px) {
     #day {
-        font-size: 5rem;
-    }
-}
-@media only screen and (max-width: 570px) {
-    #day {
-        font-size: 5rem;
+        font-size: 4vw;
     }
 }
 
 #morning-afternoon {
-    font-size: 6rem;
+    font-size: 4vw;
+    display: inline-block;
+}
+@media only screen and (max-height: 900px) {
+    #morning-afternoon {
+        font-size: 3vw;
+    }
 }
 @media only screen and (max-height: 800px) {
     #morning-afternoon {
-        font-size: 4rem;
+        font-size: 2vw;
     }
 }
-@media only screen and (max-width: 1125px) {
-    #morning-afternoon {
-        font-size: 3rem;
-    }
-}
-@media only screen and (max-width: 930px) {
-    #morning-afternoon {
-        font-size: 3rem;
-    }
-}
-@media only screen and (max-width: 755px) {
-    #morning-afternoon {
-        font-size: 3rem;
-    }
-}
-@media only screen and (max-width: 570px) {
-    #morning-afternoon {
-        font-size: 3rem;
-    }
-}
+
 
 #time-container {
     height: 55%;
@@ -87,47 +76,50 @@ body {
 }
 
 #time {
-    font-size: 22rem;
+    font-size: 17vw;
+    display: inline-block;
+}
+@media only screen and (max-height: 900px) {
+    #time {
+        font-size: 16vw;
+    }
 }
 @media only screen and (max-height: 800px) {
     #time {
-        font-size: 15rem;
+        font-size: 15vw;
     }
 }
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-height: 730px) {
     #time {
-        font-size: 12rem;
+        font-size: 12vw;
     }
 }
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-height: 630px) {
     #time {
-        font-size: 7rem;
+        font-size: 11vw;
     }
 }
-@media only screen and (max-width: 930px) {
+@media only screen and (max-height: 530px) {
     #time {
-        font-size: 6rem;
-    }
-}
-@media only screen and (max-width: 755px) {
-    #time {
-        font-size: 6rem;
-    }
-}
-@media only screen and (max-width: 570px) {
-    #time {
-        font-size: 6rem;
+        font-size: 10vw;
     }
 }
 
 #am-pm {
-    font-size: 5rem;
+    font-size: 4vw;
+    display: inline-block;
+}
+@media only screen and (max-height: 900px) {
+    #am-pm {
+        font-size: 3vw;
+    }
 }
 @media only screen and (max-height: 800px) {
     #am-pm {
-        font-size: 4rem;
+        font-size: 2vw;
     }
 }
+
 #date-container {
     height: 21%;
     color: white;
@@ -135,30 +127,32 @@ body {
     text-align: center;
 }
 #date {
-    font-size: 9rem;
+    font-size: 8vw;
+    display: inline-block;
+    margin-top: 1vh;
+}
+@media only screen and (max-height: 900px) {
+    #date {
+        font-size: 7vw;
+    }
 }
 @media only screen and (max-height: 800px) {
     #date {
-        font-size: 6rem;
+        font-size: 6vw;
     }
 }
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-height: 730px) {
     #date {
-        font-size: 5rem;
+        font-size: 5vw;
     }
 }
-@media only screen and (max-width: 930px) {
+@media only screen and (max-height: 615px) {
     #date {
-        font-size: 4rem;
+        font-size: 4vw;
     }
 }
-@media only screen and (max-width: 755px) {
+@media only screen and (max-height: 530px) {
     #date {
-        font-size: 3rem;
-    }
-}
-@media only screen and (max-width: 570px) {
-    #date {
-        font-size: 2rem;
+        font-size: 3vw;
     }
 }
