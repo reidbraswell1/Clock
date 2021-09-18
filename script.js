@@ -1,6 +1,5 @@
 setInterval(function () {
   let currentDate = new Date();
-  console.log(currentDate);
 
   let day = getSpelledDay(currentDate.getDay());
   let month = getSpelledMonth(currentDate.getMonth());
