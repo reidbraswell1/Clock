@@ -10,9 +10,14 @@ setInterval(function () {
   let hour = currentDate.getHours();
   let morningAfternoon = "";
   let amPM;
-  if (hour > 12) {
+  if (hour > 12 && hour < 18) {
     hour = hour - 12;
     morningAfternoon = "Afternoon";
+    amPM = "P.M.";
+  }
+  else if(hour >= 18) {
+    hour = hour - 12;
+    morningAfternoon = "Night";
     amPM = "P.M.";
   } else {
     morningAfternoon = "Morning";
