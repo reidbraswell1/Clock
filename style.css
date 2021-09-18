@@ -28,6 +28,26 @@ body {
         font-size: 8rem;
     }
 }
+@media only screen and (max-width: 1125px) {
+    #day {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 930px) {
+    #day {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 755px) {
+    #day {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 570px) {
+    #day {
+        font-size: 5rem;
+    }
+}
 
 #morning-afternoon {
     font-size: 6rem;
@@ -35,6 +55,26 @@ body {
 @media only screen and (max-height: 800px) {
     #morning-afternoon {
         font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    #morning-afternoon {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 930px) {
+    #morning-afternoon {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 755px) {
+    #morning-afternoon {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 570px) {
+    #morning-afternoon {
+        font-size: 3rem;
     }
 }
 
@@ -49,16 +89,41 @@ body {
 #time {
     font-size: 22rem;
 }
-@media only screen and (max-height: 1000px) {
+@media only screen and (max-height: 800px) {
     #time {
         font-size: 15rem;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    #time {
+        font-size: 12rem;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    #time {
+        font-size: 7rem;
+    }
+}
+@media only screen and (max-width: 930px) {
+    #time {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 755px) {
+    #time {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 570px) {
+    #time {
+        font-size: 6rem;
     }
 }
 
 #am-pm {
     font-size: 5rem;
 }
-@media only screen and (max-height: 1000px) {
+@media only screen and (max-height: 800px) {
     #am-pm {
         font-size: 4rem;
     }
@@ -72,8 +137,28 @@ body {
 #date {
     font-size: 9rem;
 }
-@media only screen and (max-height: 1000px) {
+@media only screen and (max-height: 800px) {
     #date {
         font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    #date {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 930px) {
+    #date {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 755px) {
+    #date {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 570px) {
+    #date {
+        font-size: 2rem;
     }
 }
