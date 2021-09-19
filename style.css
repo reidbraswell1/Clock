@@ -1,5 +1,5 @@
 html {
-    height: 99vh;
+    height: 98%;
 }
 
 body {
@@ -17,13 +17,14 @@ body {
     height: 24%;
     color: white;
     background-color: red;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #day {
     font-size: 10vw;
     display: inline-block;
-    margin-top: 1vh;
 }
 @media only screen and (max-height: 900px) {
     #day {
@@ -51,9 +52,20 @@ body {
     }
 }
 
+#time-container {
+    height: 55%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #morning-afternoon {
     font-size: 4vw;
     display: inline-block;
+    margin-top: 1rem;
 }
 @media only screen and (max-height: 900px) {
     #morning-afternoon {
@@ -66,14 +78,6 @@ body {
     }
 }
 
-
-#time-container {
-    height: 55%;
-    width: 100%;
-    color: black;
-    background-color: white;
-    text-align: center;
-}
 
 #time {
     font-size: 17vw;
@@ -96,7 +100,7 @@ body {
 }
 @media only screen and (max-height: 630px) {
     #time {
-        font-size: 11vw;
+        font-size: 13vw;
     }
 }
 @media only screen and (max-height: 530px) {
@@ -125,6 +129,9 @@ body {
     color: white;
     background-color: blue;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #date {
     font-size: 8vw;
