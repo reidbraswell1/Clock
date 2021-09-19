@@ -26,6 +26,7 @@ body {
     font-size: 10vw;
     display: inline-block;
 }
+/*
 @media only screen and (max-height: 900px) {
     #day {
         font-size: 9vw;
@@ -51,7 +52,7 @@ body {
         font-size: 4vw;
     }
 }
-
+*/
 #time-container {
     height: 55%;
     width: 100%;
@@ -67,6 +68,7 @@ body {
     display: inline-block;
     margin-top: 1rem;
 }
+/*
 @media only screen and (max-height: 900px) {
     #morning-afternoon {
         font-size: 3vw;
@@ -77,12 +79,13 @@ body {
         font-size: 2vw;
     }
 }
-
+*/
 
 #time {
     font-size: 17vw;
     display: inline-block;
 }
+/*
 @media only screen and (max-height: 900px) {
     #time {
         font-size: 16vw;
@@ -108,11 +111,12 @@ body {
         font-size: 10vw;
     }
 }
-
+*/
 #am-pm {
     font-size: 4vw;
     display: inline-block;
 }
+/*
 @media only screen and (max-height: 900px) {
     #am-pm {
         font-size: 3vw;
@@ -123,7 +127,7 @@ body {
         font-size: 2vw;
     }
 }
-
+*/
 #date-container {
     height: 21%;
     color: white;
@@ -138,6 +142,7 @@ body {
     display: inline-block;
     margin-top: 1vh;
 }
+/*
 @media only screen and (max-height: 900px) {
     #date {
         font-size: 7vw;
@@ -163,3 +168,4 @@ body {
         font-size: 3vw;
     }
 }
+*/
