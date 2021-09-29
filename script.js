@@ -45,7 +45,7 @@ function getSpelledDay(day) {
       return  "Monday";
       break;
     case 2:
-      return  "Tusday";
+      return  "Tuesday";
       break;
     case 3:
       return  "Wednesday";
