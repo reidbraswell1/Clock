@@ -1,5 +1,7 @@
 html {
+    /*
     height: 98%;
+    */
 }
 
 body {
@@ -14,12 +16,13 @@ body {
 }
 
 #day-container {
-    height: 24%;
+    height: 24vh;
     color: white;
     background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #day {
@@ -54,7 +57,7 @@ body {
 }
 */
 #time-container {
-    height: 55%;
+    height: 55vh;
     width: 100%;
     color: black;
     background-color: white;
@@ -62,6 +65,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #morning-afternoon {
     font-size: 4vw;
@@ -129,13 +133,14 @@ body {
 }
 */
 #date-container {
-    height: 21%;
+    height: 21vh;
     color: white;
     background-color: blue;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #date {
     font-size: 8vw;
